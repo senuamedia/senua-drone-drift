@@ -1,0 +1,53 @@
+flight,role,fault,simulator_parameter,value,unit,preset_parameter,preset_value,wind_from_deg
+R0,normal_reference,none,,,,,,8
+R1,normal_reference,none,,,,,,30
+R2,normal_reference,none,,,,,,53
+R3,normal_reference,none,,,,,,75
+R4,normal_reference,none,,,,,,98
+R5,normal_reference,none,,,,,,120
+R6,normal_reference,none,,,,,,143
+R7,normal_reference,none,,,,,,165
+R8,normal_reference,none,,,,,,188
+R9,normal_reference,none,,,,,,210
+R10,normal_reference,none,,,,,,233
+R11,normal_reference,none,,,,,,255
+R12,normal_reference,none,,,,,,278
+R13,normal_reference,none,,,,,,300
+R14,normal_reference,none,,,,,,323
+R15,normal_reference,none,,,,,,345
+N0,normal_test,none,,,,,,14
+N1,normal_test,none,,,,,,59
+N2,normal_test,none,,,,,,104
+N3,normal_test,none,,,,,,149
+N4,normal_test,none,,,,,,194
+N5,normal_test,none,,,,,,239
+N6,normal_test,none,,,,,,284
+N7,normal_test,none,,,,,,329
+F1a,fault_test,GPS altitude jump,SIM_GPS1_ALT_OFS,10,m,,,45
+F1b,fault_test,GPS altitude jump,SIM_GPS1_ALT_OFS,10,m,,,135
+F1c,fault_test,GPS altitude jump,SIM_GPS1_ALT_OFS,10,m,,,225
+F1d,fault_test,GPS altitude jump,SIM_GPS1_ALT_OFS,10,m,,,315
+F2a,fault_test,barometer glitch,SIM_BARO_GLITCH,10,m,,,45
+F2b,fault_test,barometer glitch,SIM_BARO_GLITCH,10,m,,,135
+F2c,fault_test,barometer glitch,SIM_BARO_GLITCH,10,m,,,225
+F2d,fault_test,barometer glitch,SIM_BARO_GLITCH,10,m,,,315
+F3a,fault_test,barometer drift,SIM_BARO_DRIFT,0.5,m/s,,,45
+F3b,fault_test,barometer drift,SIM_BARO_DRIFT,0.5,m/s,,,135
+F3c,fault_test,barometer drift,SIM_BARO_DRIFT,0.5,m/s,,,225
+F3d,fault_test,barometer drift,SIM_BARO_DRIFT,0.5,m/s,,,315
+F4a,fault_test,gyro bias,SIM_GYR1_BIAS_X,0.1,rad/s,,,45
+F4b,fault_test,gyro bias,SIM_GYR1_BIAS_X,0.1,rad/s,,,135
+F4c,fault_test,gyro bias,SIM_GYR1_BIAS_X,0.1,rad/s,,,225
+F4d,fault_test,gyro bias,SIM_GYR1_BIAS_X,0.1,rad/s,,,315
+F5a,fault_test,accelerometer bias,SIM_ACC1_BIAS_Z,1,m/s^2,,,45
+F5b,fault_test,accelerometer bias,SIM_ACC1_BIAS_Z,1,m/s^2,,,135
+F5c,fault_test,accelerometer bias,SIM_ACC1_BIAS_Z,1,m/s^2,,,225
+F5d,fault_test,accelerometer bias,SIM_ACC1_BIAS_Z,1,m/s^2,,,315
+F6a,fault_test,compass offset,SIM_MAG1_OFS_X,200,mGauss,,,45
+F6b,fault_test,compass offset,SIM_MAG1_OFS_X,200,mGauss,,,135
+F6c,fault_test,compass offset,SIM_MAG1_OFS_X,200,mGauss,,,225
+F6d,fault_test,compass offset,SIM_MAG1_OFS_X,200,mGauss,,,315
+F7a,fault_test,motor 1 at 75% thrust,SIM_ENGINE_FAIL,1,motor number,SIM_ENGINE_MUL,0.75,45
+F7b,fault_test,motor 1 at 75% thrust,SIM_ENGINE_FAIL,1,motor number,SIM_ENGINE_MUL,0.75,135
+F7c,fault_test,motor 1 at 75% thrust,SIM_ENGINE_FAIL,1,motor number,SIM_ENGINE_MUL,0.75,225
+F7d,fault_test,motor 1 at 75% thrust,SIM_ENGINE_FAIL,1,motor number,SIM_ENGINE_MUL,0.75,315

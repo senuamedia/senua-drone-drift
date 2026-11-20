@@ -1,0 +1,45 @@
+message_id,message,position,field,name,unit,read_by_engine
+24,GPS_RAW_INT,1,lat,gps_lat,1e-7 degree,yes
+24,GPS_RAW_INT,2,lon,gps_lon,1e-7 degree,yes
+24,GPS_RAW_INT,3,alt,gps_alt,mm,yes
+24,GPS_RAW_INT,4,eph,gps_eph,horizontal dilution x 100,yes
+24,GPS_RAW_INT,5,epv,gps_epv,vertical dilution x 100,yes
+24,GPS_RAW_INT,6,vel,gps_vel,cm/s,yes
+24,GPS_RAW_INT,7,cog,gps_cog,0.01 degree,yes
+24,GPS_RAW_INT,8,satellites_visible,gps_sats,count,yes
+27,RAW_IMU,1,xacc,imu_xacc,raw sensor units,yes
+27,RAW_IMU,2,yacc,imu_yacc,raw sensor units,yes
+27,RAW_IMU,3,zacc,imu_zacc,raw sensor units,yes
+27,RAW_IMU,4,xgyro,imu_xgyro,raw sensor units,yes
+27,RAW_IMU,5,ygyro,imu_ygyro,raw sensor units,yes
+27,RAW_IMU,6,zgyro,imu_zgyro,raw sensor units,yes
+27,RAW_IMU,7,xmag,imu_xmag,raw sensor units,yes
+27,RAW_IMU,8,ymag,imu_ymag,raw sensor units,yes
+27,RAW_IMU,9,zmag,imu_zmag,raw sensor units,yes
+29,SCALED_PRESSURE,1,press_abs,baro_press_abs,hPa x 65536,yes
+29,SCALED_PRESSURE,2,press_diff,baro_press_diff,hPa x 65536,yes
+29,SCALED_PRESSURE,3,temperature,baro_temperature,0.01 degree C,yes
+30,ATTITUDE,1,roll,att_roll,rad x 65536,no
+30,ATTITUDE,2,pitch,att_pitch,rad x 65536,no
+30,ATTITUDE,3,yaw,att_yaw,rad x 65536,no
+30,ATTITUDE,4,rollspeed,att_rollspeed,rad/s x 65536,no
+30,ATTITUDE,5,pitchspeed,att_pitchspeed,rad/s x 65536,no
+30,ATTITUDE,6,yawspeed,att_yawspeed,rad/s x 65536,no
+33,GLOBAL_POSITION_INT,1,lat,pos_lat,1e-7 degree,no
+33,GLOBAL_POSITION_INT,2,lon,pos_lon,1e-7 degree,no
+33,GLOBAL_POSITION_INT,3,alt,pos_alt,mm,no
+33,GLOBAL_POSITION_INT,4,relative_alt,pos_rel_alt,mm,no
+33,GLOBAL_POSITION_INT,5,vx,pos_vx,cm/s,no
+33,GLOBAL_POSITION_INT,6,vy,pos_vy,cm/s,no
+33,GLOBAL_POSITION_INT,7,vz,pos_vz,cm/s,no
+33,GLOBAL_POSITION_INT,8,hdg,pos_hdg,0.01 degree,no
+36,SERVO_OUTPUT_RAW,1,servo1_raw,motor_1,microseconds,no
+36,SERVO_OUTPUT_RAW,2,servo2_raw,motor_2,microseconds,no
+36,SERVO_OUTPUT_RAW,3,servo3_raw,motor_3,microseconds,no
+36,SERVO_OUTPUT_RAW,4,servo4_raw,motor_4,microseconds,no
+74,VFR_HUD,1,airspeed,hud_airspeed,m/s x 65536,no
+74,VFR_HUD,2,groundspeed,hud_groundspeed,m/s x 65536,no
+74,VFR_HUD,3,alt,hud_alt,m x 65536,no
+74,VFR_HUD,4,climb,hud_climb,m/s x 65536,no
+74,VFR_HUD,5,heading,hud_heading,degree,no
+74,VFR_HUD,6,throttle,hud_throttle,percent,no

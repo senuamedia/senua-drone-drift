@@ -1,0 +1,37 @@
+flight,role,fault,windows_scored,windows_flagged,caught,seconds_to_catch,flagged_sensor
+N0,normal_test,none,33400,272,,,
+N1,normal_test,none,33502,276,,,
+N2,normal_test,none,33468,264,,,
+N3,normal_test,none,33491,255,,,
+N4,normal_test,none,33399,168,,,
+N5,normal_test,none,33429,431,,,
+N6,normal_test,none,33497,398,,,
+N7,normal_test,none,32774,306,,,
+F1a,fault_test,GPS altitude jump,33451,397,yes,0.227,gps_alt
+F1b,fault_test,GPS altitude jump,33479,207,yes,0.527,gps_alt
+F1c,fault_test,GPS altitude jump,33391,280,yes,0.227,gps_alt
+F1d,fault_test,GPS altitude jump,33501,250,yes,0.427,gps_alt
+F2a,fault_test,barometer glitch,33959,1156,yes,0.700,baro_press_abs
+F2b,fault_test,barometer glitch,33906,1038,yes,0.601,baro_press_abs
+F2c,fault_test,barometer glitch,33943,1074,yes,0.601,baro_press_abs
+F2d,fault_test,barometer glitch,33989,1176,yes,0.801,baro_press_abs
+F3a,fault_test,barometer drift,28607,1661,yes,0.600,baro_press_abs
+F3b,fault_test,barometer drift,28726,1758,yes,0.701,baro_press_abs
+F3c,fault_test,barometer drift,28707,1785,yes,0.701,baro_press_abs
+F3d,fault_test,barometer drift,28699,1725,yes,0.601,baro_press_abs
+F4a,fault_test,gyro bias,33584,956,yes,2.100,imu_xgyro
+F4b,fault_test,gyro bias,33580,765,yes,1.900,imu_xgyro
+F4c,fault_test,gyro bias,33501,1162,yes,1.700,imu_xgyro
+F4d,fault_test,gyro bias,33557,1043,yes,2.100,imu_xgyro
+F5a,fault_test,accelerometer bias,33791,987,yes,0.701,imu_zacc
+F5b,fault_test,accelerometer bias,33748,916,yes,0.500,imu_zacc
+F5c,fault_test,accelerometer bias,33703,1081,yes,0.500,imu_zacc
+F5d,fault_test,accelerometer bias,33700,849,yes,0.200,imu_zacc
+F6a,fault_test,compass offset,33471,316,yes,0.400,imu_xmag
+F6b,fault_test,compass offset,33476,280,yes,0.300,imu_xmag
+F6c,fault_test,compass offset,33410,366,yes,0.500,imu_xmag
+F6d,fault_test,compass offset,33517,401,yes,0.501,imu_xmag
+F7a,fault_test,motor 1 at 75% thrust,33802,8998,yes,0.500,imu_xgyro
+F7b,fault_test,motor 1 at 75% thrust,33794,8990,yes,0.500,imu_xgyro
+F7c,fault_test,motor 1 at 75% thrust,33117,8756,yes,0.501,imu_xgyro
+F7d,fault_test,motor 1 at 75% thrust,33781,8911,yes,0.501,imu_xgyro
